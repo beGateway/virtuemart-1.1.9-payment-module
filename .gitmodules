@@ -1,0 +1,4 @@
+[submodule "administrator/components/com_virtuemart/classes/begateway/begateway-api-php"]
+	path = administrator/components/com_virtuemart/classes/begateway/begateway-api-php
+	url = https://github.com/beGateway/begateway-api-php.git
+	branch = php5.2
