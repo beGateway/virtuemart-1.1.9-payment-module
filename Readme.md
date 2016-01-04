@@ -1,6 +1,6 @@
 ## Модуль оплат beGateway для VirtueMart 1.1.9
 
-Ссылка на архив с модулем: [begateway.zip]()
+Ссылка на архив с модулем: [begateway.zip](https://raw.githubusercontent.com/beGateway/virtuemart-1.1.9-payment-module/master/begateway.zip)
 
 ### Инструкция по установке
 
@@ -48,7 +48,7 @@
 
 ## VirtueMart 1.1.9 payment module
 
-Link to download the payment module: [begateway.zip]()
+Link to download the payment module: [begateway.zip](https://raw.githubusercontent.com/beGateway/virtuemart-1.1.9-payment-module/master/begateway.zip)
 
 ### How to install
 

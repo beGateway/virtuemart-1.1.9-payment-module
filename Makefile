@@ -1,3 +1,3 @@
 all:
 	if [[ -e begateway.zip ]]; then rm begateway.zip; fi
-	 zip -r ../begateway.zip administrator
+	 zip -r begateway.zip administrator
