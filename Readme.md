@@ -22,7 +22,7 @@
     - Статус заказа для успешной транзакции
     - Статус заказа для неудачной транзакции
     - Статус заказа, у которого платеж обрабатывается
-    - В поле _Дополнительная информация по платежу_ вставьте содержимое файла `administrator/components/com_virtuemart/classes/begateway/begateway.tpl.php`
+    - В поле _Дополнительная информация по платежу_ вставьте содержимое файла [administrator/components/com_virtuemart/classes/begateway/begateway.tpl.php](https://raw.githubusercontent.com/beGateway/virtuemart-1.1.9-payment-module/master/administrator/components/com_virtuemart/classes/begateway/begateway.tpl.php)
   * Нажмите _Сохранить_
   * Модуль оплаты настроен
 
@@ -72,7 +72,7 @@ Link to download the payment module: [begateway.zip](https://raw.githubuserconte
     - Order Status for successful transactions
     - Order Status for failed transactions
     - Order Status for Pending Payments
-    - Add to the field _Payment Extra Info_ contents of the file `administrator/components/com_virtuemart/classes/begateway/begateway.tpl.php`
+    - Add to the field _Payment Extra Info_ contents of the file [administrator/components/com_virtuemart/classes/begateway/begateway.tpl.php](https://raw.githubusercontent.com/beGateway/virtuemart-1.1.9-payment-module/master/administrator/components/com_virtuemart/classes/begateway/begateway.tpl.php)
   * Click _Save_
   * The module is configured
 
