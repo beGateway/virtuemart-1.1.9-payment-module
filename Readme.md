@@ -40,6 +40,8 @@
 
   * Домен платежного шлюза __demo-gateway.begateway.com__
   * Домен страницы оплаты __checkout.begateway.com__
+  * ID магазина __361__
+  * Ключ магазинa __b8647b68898b084b836474ed8d61ffe117c9a01168d867f24953b776ddcb134d__
   * номер карты __4200000000000000__
   * имя на карте __John Doe__
   * месяц срока действия карты __01__, чтобы получить успешный платеж
@@ -88,6 +90,8 @@ to make a test payment:
 
   * payment gateway domain __demo-gateway.begateway.com__
   * payment page domain __checkout.begateway.com__
+  * Shop Id __361__
+  * Shop key __b8647b68898b084b836474ed8d61ffe117c9a01168d867f24953b776ddcb134d__
   * card number __4200000000000000__
   * card name __John Doe__
   * card expiry month __01__ to get a success payment
