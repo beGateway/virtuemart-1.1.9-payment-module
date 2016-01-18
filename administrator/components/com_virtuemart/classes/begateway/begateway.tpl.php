@@ -12,8 +12,9 @@ $db1->query($q);
 $country = $db1->f('country_2_code');
 $state = NULL;
 
-if (in_array($country, ['US', 'CA']))
+if (in_array($country, array('US', 'CA'))) {
   $state = $user->state;
+}
 
 $email = NULL;
 
