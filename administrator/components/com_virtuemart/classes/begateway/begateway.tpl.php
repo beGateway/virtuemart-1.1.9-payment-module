@@ -24,6 +24,13 @@ if (isset($user->email)) {
   $email = $user->user_email;
 }
 
+$currency_code = "EUR";
+$q = "SELECT order_currency FROM #__vm_orders where order_id = " . $db->f("order_id");
+$db1->query($q);
+if ($db1->next_record()) {
+  $currency_code = $db1->f("order_currency");
+}
+
 $params = array(
   // Customer Name and Billing Address
   'first_name' => $user->first_name,
@@ -41,7 +48,7 @@ $params = array(
   'order_id' => $db->f("order_id"),
   'order_number' => $db->f("order_number"),
   'amount' => $db->f("order_total"),
-  'currency' => $_SESSION['vendor_currency']
+  'currency' => $currency_code
 );
 
 $bgw = new begateway();
