@@ -95,8 +95,6 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
   else
     require_once( ADMINPATH. 'languages/admin/english.php' );
 
-  require_once( CLASSPATH. 'payment/ps_moneybookers.cfg.php' );
-
   /* Load the VirtueMart database class */
   require_once( CLASSPATH. 'ps_database.php' );
 
